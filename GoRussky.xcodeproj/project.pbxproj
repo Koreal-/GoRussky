@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A28ED8C248CF83700FA3BD3 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A28ED8B248CF83700FA3BD3 /* HomeController.swift */; };
+		0A28ED8E248F5BD700FA3BD3 /* LocationInputActivationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A28ED8D248F5BD700FA3BD3 /* LocationInputActivationView.swift */; };
+		0A28ED90248F708700FA3BD3 /* LocationInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A28ED8F248F708700FA3BD3 /* LocationInputView.swift */; };
+		0A28ED92248F9FF700FA3BD3 /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A28ED91248F9FF700FA3BD3 /* LocationCell.swift */; };
+		0A28ED942490172900FA3BD3 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A28ED932490172900FA3BD3 /* Service.swift */; };
+		0A28ED9624902D9500FA3BD3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A28ED9524902D9500FA3BD3 /* User.swift */; };
+		0A28ED982491857200FA3BD3 /* LocationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A28ED972491857200FA3BD3 /* LocationHandler.swift */; };
+		0A3259D524E927CD000BA071 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3259D424E927CD000BA071 /* MenuController.swift */; };
+		0A3259D724E927FF000BA071 /* ContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3259D624E927FF000BA071 /* ContainerController.swift */; };
+		0A3259D924E94D04000BA071 /* MenuHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3259D824E94D04000BA071 /* MenuHeader.swift */; };
+		0A3259DB24EA945F000BA071 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3259DA24EA945F000BA071 /* SettingsController.swift */; };
+		0A3259DD24EAA4C0000BA071 /* UserInfoHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3259DC24EAA4C0000BA071 /* UserInfoHeader.swift */; };
+		0A445C3124991DD100DA9C8E /* RideActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A445C3024991DD100DA9C8E /* RideActionView.swift */; };
+		0A445C33249D2A7B00DA9C8E /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A445C32249D2A7B00DA9C8E /* Trip.swift */; };
+		0A44A19224B461B00019F164 /* PickUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A44A19124B461B00019F164 /* PickUpController.swift */; };
+		0A490354248BCBEB0031D704 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A490353248BCBEB0031D704 /* SignUpController.swift */; };
+		0A490356248BF2140031D704 /* AuthButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A490355248BF2140031D704 /* AuthButton.swift */; };
+		0A490358248C131C0031D704 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A490357248C131C0031D704 /* GoogleService-Info.plist */; };
+		0A4C97B3249210B0008059AB /* DriverAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4C97B2249210B0008059AB /* DriverAnnotation.swift */; };
+		0A50761424F27AD700B6B3AD /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A50761324F27AD700B6B3AD /* CircularProgressView.swift */; };
+		0A7B971B24EABA6200291A17 /* AddLocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7B971A24EABA6200291A17 /* AddLocationController.swift */; };
+		0AC97B65248A87E3006CC56E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC97B64248A87E3006CC56E /* AppDelegate.swift */; };
+		0AC97B67248A87E3006CC56E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC97B66248A87E3006CC56E /* SceneDelegate.swift */; };
+		0AC97B6C248A87E3006CC56E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AC97B6A248A87E3006CC56E /* Main.storyboard */; };
+		0AC97B6E248A87E9006CC56E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AC97B6D248A87E9006CC56E /* Assets.xcassets */; };
+		0AC97B71248A87E9006CC56E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AC97B6F248A87E9006CC56E /* LaunchScreen.storyboard */; };
+		0AC97B7E248A8941006CC56E /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC97B7D248A8941006CC56E /* LoginController.swift */; };
+		0AC97B80248A906C006CC56E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC97B7F248A906C006CC56E /* Extensions.swift */; };
+		B6649D296DA10B94A49C0433 /* Pods_GoRussky.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6953B980B62DC1DF930118 /* Pods_GoRussky.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A28ED8B248CF83700FA3BD3 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		0A28ED8D248F5BD700FA3BD3 /* LocationInputActivationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInputActivationView.swift; sourceTree = "<group>"; };
+		0A28ED8F248F708700FA3BD3 /* LocationInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInputView.swift; sourceTree = "<group>"; };
+		0A28ED91248F9FF700FA3BD3 /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
+		0A28ED932490172900FA3BD3 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		0A28ED9524902D9500FA3BD3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0A28ED972491857200FA3BD3 /* LocationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHandler.swift; sourceTree = "<group>"; };
+		0A3259D424E927CD000BA071 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		0A3259D624E927FF000BA071 /* ContainerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerController.swift; sourceTree = "<group>"; };
+		0A3259D824E94D04000BA071 /* MenuHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuHeader.swift; sourceTree = "<group>"; };
+		0A3259DA24EA945F000BA071 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		0A3259DC24EAA4C0000BA071 /* UserInfoHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoHeader.swift; sourceTree = "<group>"; };
+		0A445C3024991DD100DA9C8E /* RideActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideActionView.swift; sourceTree = "<group>"; };
+		0A445C32249D2A7B00DA9C8E /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		0A44A19124B461B00019F164 /* PickUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickUpController.swift; sourceTree = "<group>"; };
+		0A490353248BCBEB0031D704 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		0A490355248BF2140031D704 /* AuthButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthButton.swift; sourceTree = "<group>"; };
+		0A490357248C131C0031D704 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		0A4C97B2249210B0008059AB /* DriverAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverAnnotation.swift; sourceTree = "<group>"; };
+		0A50761324F27AD700B6B3AD /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		0A7B971A24EABA6200291A17 /* AddLocationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLocationController.swift; sourceTree = "<group>"; };
+		0AC97B61248A87E3006CC56E /* GoRussky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoRussky.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AC97B64248A87E3006CC56E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0AC97B66248A87E3006CC56E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0AC97B6B248A87E3006CC56E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0AC97B6D248A87E9006CC56E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0AC97B70248A87E9006CC56E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0AC97B72248A87E9006CC56E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AC97B7D248A8941006CC56E /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		0AC97B7F248A906C006CC56E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		452B61E2B9BA7768C590574B /* Pods-GoRussky.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoRussky.debug.xcconfig"; path = "Target Support Files/Pods-GoRussky/Pods-GoRussky.debug.xcconfig"; sourceTree = "<group>"; };
+		9F3A5611567BE84789520E0D /* Pods-GoRussky.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoRussky.release.xcconfig"; path = "Target Support Files/Pods-GoRussky/Pods-GoRussky.release.xcconfig"; sourceTree = "<group>"; };
+		CE6953B980B62DC1DF930118 /* Pods_GoRussky.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoRussky.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AC97B5E248A87E3006CC56E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6649D296DA10B94A49C0433 /* Pods_GoRussky.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A3259D324E92793000BA071 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				0A3259D424E927CD000BA071 /* MenuController.swift */,
+				0A3259D624E927FF000BA071 /* ContainerController.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		0A7B971924EABA3C00291A17 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				0A3259DA24EA945F000BA071 /* SettingsController.swift */,
+				0A7B971A24EABA6200291A17 /* AddLocationController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		0AC97B58248A87E3006CC56E = {
+			isa = PBXGroup;
+			children = (
+				0AC97B63248A87E3006CC56E /* GoRussky */,
+				0AC97B62248A87E3006CC56E /* Products */,
+				C2F409D9CED57580E73D1E45 /* Pods */,
+				37D8FF4314C7442138E1C4BD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0AC97B62248A87E3006CC56E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AC97B61248A87E3006CC56E /* GoRussky.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AC97B63248A87E3006CC56E /* GoRussky */ = {
+			isa = PBXGroup;
+			children = (
+				0AC97B7C248A8879006CC56E /* Utils */,
+				0AC97B7B248A8862006CC56E /* Service */,
+				0AC97B7A248A8859006CC56E /* Controller */,
+				0AC97B79248A8840006CC56E /* View */,
+				0AC97B78248A8827006CC56E /* Model */,
+				0AC97B64248A87E3006CC56E /* AppDelegate.swift */,
+				0AC97B66248A87E3006CC56E /* SceneDelegate.swift */,
+				0AC97B6A248A87E3006CC56E /* Main.storyboard */,
+				0AC97B6D248A87E9006CC56E /* Assets.xcassets */,
+				0AC97B6F248A87E9006CC56E /* LaunchScreen.storyboard */,
+				0A490357248C131C0031D704 /* GoogleService-Info.plist */,
+				0AC97B72248A87E9006CC56E /* Info.plist */,
+			);
+			path = GoRussky;
+			sourceTree = "<group>";
+		};
+		0AC97B78248A8827006CC56E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0A28ED9524902D9500FA3BD3 /* User.swift */,
+				0A4C97B2249210B0008059AB /* DriverAnnotation.swift */,
+				0A445C32249D2A7B00DA9C8E /* Trip.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0AC97B79248A8840006CC56E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A490355248BF2140031D704 /* AuthButton.swift */,
+				0A28ED8D248F5BD700FA3BD3 /* LocationInputActivationView.swift */,
+				0A28ED8F248F708700FA3BD3 /* LocationInputView.swift */,
+				0A28ED91248F9FF700FA3BD3 /* LocationCell.swift */,
+				0A445C3024991DD100DA9C8E /* RideActionView.swift */,
+				0A3259D824E94D04000BA071 /* MenuHeader.swift */,
+				0A3259DC24EAA4C0000BA071 /* UserInfoHeader.swift */,
+				0A50761324F27AD700B6B3AD /* CircularProgressView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0AC97B7A248A8859006CC56E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0A7B971924EABA3C00291A17 /* Settings */,
+				0A3259D324E92793000BA071 /* SideMenu */,
+				0AC97B7D248A8941006CC56E /* LoginController.swift */,
+				0A490353248BCBEB0031D704 /* SignUpController.swift */,
+				0A28ED8B248CF83700FA3BD3 /* HomeController.swift */,
+				0A44A19124B461B00019F164 /* PickUpController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0AC97B7B248A8862006CC56E /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				0A28ED932490172900FA3BD3 /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		0AC97B7C248A8879006CC56E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0AC97B7F248A906C006CC56E /* Extensions.swift */,
+				0A28ED972491857200FA3BD3 /* LocationHandler.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		37D8FF4314C7442138E1C4BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE6953B980B62DC1DF930118 /* Pods_GoRussky.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2F409D9CED57580E73D1E45 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				452B61E2B9BA7768C590574B /* Pods-GoRussky.debug.xcconfig */,
+				9F3A5611567BE84789520E0D /* Pods-GoRussky.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AC97B60248A87E3006CC56E /* GoRussky */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AC97B75248A87E9006CC56E /* Build configuration list for PBXNativeTarget "GoRussky" */;
+			buildPhases = (
+				2874503D2BE0C48DC7CC34E5 /* [CP] Check Pods Manifest.lock */,
+				0AC97B5D248A87E3006CC56E /* Sources */,
+				0AC97B5E248A87E3006CC56E /* Frameworks */,
+				0AC97B5F248A87E3006CC56E /* Resources */,
+				3E706C79BBB4E5A22760A7B4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoRussky;
+			productName = GoRussky;
+			productReference = 0AC97B61248A87E3006CC56E /* GoRussky.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AC97B59248A87E3006CC56E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Kartinin Studio";
+				TargetAttributes = {
+					0AC97B60248A87E3006CC56E = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 0AC97B5C248A87E3006CC56E /* Build configuration list for PBXProject "GoRussky" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0AC97B58248A87E3006CC56E;
+			productRefGroup = 0AC97B62248A87E3006CC56E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AC97B60248A87E3006CC56E /* GoRussky */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AC97B5F248A87E3006CC56E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AC97B71248A87E9006CC56E /* LaunchScreen.storyboard in Resources */,
+				0A490358248C131C0031D704 /* GoogleService-Info.plist in Resources */,
+				0AC97B6E248A87E9006CC56E /* Assets.xcassets in Resources */,
+				0AC97B6C248A87E3006CC56E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2874503D2BE0C48DC7CC34E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoRussky-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E706C79BBB4E5A22760A7B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoRussky/Pods-GoRussky-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoRussky/Pods-GoRussky-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoRussky/Pods-GoRussky-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AC97B5D248A87E3006CC56E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A490354248BCBEB0031D704 /* SignUpController.swift in Sources */,
+				0A490356248BF2140031D704 /* AuthButton.swift in Sources */,
+				0A28ED8C248CF83700FA3BD3 /* HomeController.swift in Sources */,
+				0A3259DD24EAA4C0000BA071 /* UserInfoHeader.swift in Sources */,
+				0A3259DB24EA945F000BA071 /* SettingsController.swift in Sources */,
+				0A28ED90248F708700FA3BD3 /* LocationInputView.swift in Sources */,
+				0A445C33249D2A7B00DA9C8E /* Trip.swift in Sources */,
+				0A4C97B3249210B0008059AB /* DriverAnnotation.swift in Sources */,
+				0AC97B7E248A8941006CC56E /* LoginController.swift in Sources */,
+				0A44A19224B461B00019F164 /* PickUpController.swift in Sources */,
+				0A50761424F27AD700B6B3AD /* CircularProgressView.swift in Sources */,
+				0AC97B65248A87E3006CC56E /* AppDelegate.swift in Sources */,
+				0A7B971B24EABA6200291A17 /* AddLocationController.swift in Sources */,
+				0A28ED92248F9FF700FA3BD3 /* LocationCell.swift in Sources */,
+				0A3259D524E927CD000BA071 /* MenuController.swift in Sources */,
+				0A28ED982491857200FA3BD3 /* LocationHandler.swift in Sources */,
+				0A3259D724E927FF000BA071 /* ContainerController.swift in Sources */,
+				0A3259D924E94D04000BA071 /* MenuHeader.swift in Sources */,
+				0AC97B67248A87E3006CC56E /* SceneDelegate.swift in Sources */,
+				0A445C3124991DD100DA9C8E /* RideActionView.swift in Sources */,
+				0A28ED9624902D9500FA3BD3 /* User.swift in Sources */,
+				0A28ED942490172900FA3BD3 /* Service.swift in Sources */,
+				0A28ED8E248F5BD700FA3BD3 /* LocationInputActivationView.swift in Sources */,
+				0AC97B80248A906C006CC56E /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0AC97B6A248A87E3006CC56E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AC97B6B248A87E3006CC56E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0AC97B6F248A87E9006CC56E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AC97B70248A87E9006CC56E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0AC97B73248A87E9006CC56E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0AC97B74248A87E9006CC56E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0AC97B76248A87E9006CC56E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 452B61E2B9BA7768C590574B /* Pods-GoRussky.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VCB4A8S4F6;
+				INFOPLIST_FILE = GoRussky/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kartinin-Studio.GoRussky";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0AC97B77248A87E9006CC56E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F3A5611567BE84789520E0D /* Pods-GoRussky.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VCB4A8S4F6;
+				INFOPLIST_FILE = GoRussky/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kartinin-Studio.GoRussky";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AC97B5C248A87E3006CC56E /* Build configuration list for PBXProject "GoRussky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AC97B73248A87E9006CC56E /* Debug */,
+				0AC97B74248A87E9006CC56E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AC97B75248A87E9006CC56E /* Build configuration list for PBXNativeTarget "GoRussky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AC97B76248A87E9006CC56E /* Debug */,
+				0AC97B77248A87E9006CC56E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AC97B59248A87E3006CC56E /* Project object */;
+}
